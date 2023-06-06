@@ -1,0 +1,28 @@
+/* styles.css */
+header {
+    background-color: #773012;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #0c0c0c;
+}
+
+nav ul li a:hover {
+    background-color: #533946;
+    color: #0c0c0c;
+}

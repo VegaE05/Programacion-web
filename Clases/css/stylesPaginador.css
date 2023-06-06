@@ -1,0 +1,62 @@
+/* Estilos generales */
+body {
+    background-color: #412d2d;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #5b6d54;
+    color: #8d3636;
+  }
+  
+  h2 {
+    color: #161616;
+  }
+  
+  /* Estilos para la sección de datos */
+  .datos {
+    margin-bottom: 20px;
+  }
+  
+  .persona {
+    background-color: #744343da;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .persona p {
+    margin: 0;
+    color: #228B22;
+  }
+  
+  /* Estilos para la paginación */
+  .paginacion {
+    text-align: center;
+  }
+  
+  .boton {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-right: 5px;
+    background-color: #BA5503;
+    color: #9932CC;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .boton:hover {
+    background-color: #FF00FF;
+  }
+  
+  .pagina-actual {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-right: 5px;
+    background-color: #FF0000;
+    color: #F08080;
+    text-decoration: none;
+    border-radius: 5px;
+  }  

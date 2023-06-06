@@ -1,0 +1,17 @@
+Filezila-->descargar
+                se necesita saber la ruta
+                
+abrir terminal o consola en su compuitadora         Posteriormente abrir otra
+
+en la segunda terminal:
+     > ssh miusuario@192.168.10.6
+     $cd public_html
+     $cd proyecto
+     $pwd
+     /alumnos/ingrso20/l20371035/publichtml/proyecto-----------------
+                                                                    |
+                                                                    |     
+en la primera terminal:                                             |
+     >cd Descargas                                                |
+     >proyecto                                                      |
+     >scp -r l20371035@192.168.10.6: (insertar la direccion que aparece en la segunda terminal en la primera terminal).
